@@ -1,3 +1,7 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1566935843973-aed0ddcb0ecc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2029&q=80");
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #04aa6d;
@@ -63,4 +67,18 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block;
+}
+
+select {
+  width: 18rem !important;
+}
+h1 {
+  font-size: 100px !important;
+  font-weight: 700 !important;
+  color: #fff1fd !important;
+  text-shadow: 6px 6px 4px rgb(183, 78, 180);
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
 }

@@ -57,10 +57,9 @@ const handleSelectChange = (val) => {
     <p class="card-text"><i class="fa-solid fa-earth-americas"></i> Region:${region}</p>
     <p class="card-text"><i class="fa-solid fa-users"></i>${population}</p>
     <p class="card-text"><i class="fa-regular fa-comments"></i> Languages:${langArr}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-   <img  src=${maps.googleMaps} />
+    <a href="${maps.openStreetMaps}" target="_blank"><i class="fa-solid fa-map-location-dot"></i> See on the Maps </a>
     </div>
-</div>
+  </div>
     
     `;
 };
