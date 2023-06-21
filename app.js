@@ -55,9 +55,9 @@ const handleSelectChange = (val) => {
   <div class="card-body">
     <h2 class="card-title">${val}</h2>
     <p class="card-text"><i class="fa-solid fa-earth-americas"></i> Region:${region}</p>
-    <p class="card-text"><i class="fa-solid fa-users"></i>${population}</p>
+    <p class="card-text"><i class="fa-solid fa-users"></i>Population:${population}</p>
     <p class="card-text"><i class="fa-regular fa-comments"></i> Languages:${langArr}</p>
-    <a href="${maps.openStreetMaps}" target="_blank"><i class="fa-solid fa-map-location-dot"></i> See on the Maps </a>
+    <a href="${maps.openStreetMaps}" target="_blank"><i class="fa-solid fa-map-location-dot"></i>Map: See on the Maps </a>
     </div>
   </div>
     
